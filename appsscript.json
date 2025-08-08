@@ -1,0 +1,21 @@
+{
+  "timeZone": "Asia/Hong_Kong",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "OAuth2",
+      "libraryId": "{{ LIBRARY_ID }}",
+      "version": "{{ VERSION }}"
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "dataStudio": {
+    "name": "Wisenet Connector",
+    "logoUrl": "{{ LOGO_URL }}",
+    "company": "{{ COMPANY }}",
+    "companyUrl": "{{ COMPANY_URL }}",
+    "addonUrl": "{{ ADD_ON_URL }}",
+    "supportUrl": "{{ SUPPORT_URL }}",
+    "description": "{{ DESCRIPTION }}",
+    "sources": ["Wisenet"]
+  }
+}
